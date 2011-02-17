@@ -1,6 +1,6 @@
 {
 	"name": "Gooatse",
-	"version": "1.1",
+	"version": "1.2",
 	"description": "Replace Google Doodle by a inoffensive Goatse Doodle",
 	"homepage_url": "http://joelcogen.com/projects/chrome-extensions/",
 	"icons": { "128": "icon.png" },
