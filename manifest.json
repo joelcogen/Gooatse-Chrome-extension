@@ -1,0 +1,28 @@
+{
+	"name": "Gooatse",
+	"version": "1.1",
+	"description": "Replace Google Doodle by a inoffensive Goatse Doodle",
+	"homepage_url": "http://joelcogen.com/projects/chrome-extensions/",
+	"icons": { "128": "icon.png" },
+
+	"content_scripts": [ {
+			"matches": [
+				"http://www.google.com/*",
+				"http://www.google.be/*",
+				"http://www.google.co.uk/*",
+				"http://www.google.it/*",
+				"http://www.google.fr/*",
+				"http://www.google.es/*",
+				"http://www.google.pt/*",
+				"http://www.google.de/*",
+				"http://www.google.ch/*",
+				"http://www.google.gr/*",
+				"http://www.google.us/*",
+				"http://www.google.com.au/*",
+				"http://www.google.ru/*",
+				"http://www.google.lt/*",
+				"http://www.google.com.br/*"
+			],
+			"js": ["gooatse.js"]
+	} ]
+}
